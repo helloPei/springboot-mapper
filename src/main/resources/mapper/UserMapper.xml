@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- User实现Mapper接口对应的映射文件 -->
+<!--nameapce:名称空间,用于隔离sql语句,必须是所对应Mapper接口的全路径名(包名.接口名)-->
+<mapper namespace="com.demo.mapper.UserMapper">
+	<!-- id:必须是所对应接口中相应的方法名，resultType:方法返回的结果数据类型。 -->
+	<!-- <select id="findAllUser" resultType="com.demo.pojo.User">
+		SELECT * FROM sys_users
+	</select> -->
+</mapper>
