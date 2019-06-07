@@ -69,7 +69,6 @@ mybatis:
 #通用mapper配置
 mapper:
     #mappers 多个接口时逗号隔开
-    #mappers: com.demo.mapper.MyMapper
     mappers: tk.mybatis.mapper.common.BaseMapper
     not-empty: false
     identity: MYSQL
